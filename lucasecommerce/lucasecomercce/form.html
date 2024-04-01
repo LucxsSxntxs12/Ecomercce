@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Lucas | Store</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="primary-color">
+        <div class="container nav-content">
+            <div class="logo">
+                <a href="index.html"> <h2>Lucas<span>Store</span></h2></a>
+            </div><!--logo-->
+
+            <div class="cart">
+                <div class="cart-item">
+                    <div class="car-items">
+                        <p>2</p>
+                    </div>
+                    <img src="images/cart.png">
+                </div>
+
+                <div class="menu-icon">
+                    <img src="images/hamburger.png">
+                </div>
+            </div>
+
+        </div><!--nav-content-->
+    </nav>
+
+    <form action="validacao.php" class="gray-color" method="post">
+        <div class="container">
+            <h2>Fale conosco</h2>
+            
+            <label>Nome</label><input type="text" name="nome" placeholder="*Digite seu nome..." required>
+            
+            <label>Email</label> <input type="text" name="email" placeholder="*Digite seu email.." required>
+            <textarea placeholder="Deixe sua mensagem" name="mensagem"></textarea>
+            <input type="submit" name="acao" value="Enviar!">
+        </div>
+    </form>
+
+
+    <footer class="primary-color">
+        <div class="container footer-content">
+            <div class="flex-footer">
+                <div class="endereco">
+                    <p>Rua: tanannana</p>
+                    <p>Bairro: tanannanaa</p>
+                    <h2>Entre em contato (11) 01234-5678</h2>
+                </div><!--endereco-->
+
+                <div class="logo">
+                    <h2>Lucas<span>Store</span></h2>
+                </div>
+                <div class="links">
+                    <ul>
+                        <h2>Links Uteis</h2>
+                        <li><a href="#">Promocoes</a></li>
+                        <li><a href="#">Nossas Redes</a></li>
+                        <li><a href="#">Politicas</a></li>
+                        <li><a href="#">Trocas e Devolucoes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!--footer-content-->
+        <div class="direitos">
+            <p>2024 - Todos os Direitos Reservados - Lucas Store!</p>
+        </div>
+    </footer>
+   
+    <script src="function.js"></script>
+
+</body>
+
+</html>
